@@ -27,5 +27,7 @@ public class CalorieCounter {
       System.out.print("Men: ");
       System.out.printf("%.2f", menCalories);
       System.out.println(" calories"); 
+
+      scnr.close();
    }
 } 
