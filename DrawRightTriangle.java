@@ -13,12 +13,14 @@ public class DrawRightTriangle {
       triangleHeight = scnr.nextInt();
       System.out.println("");
       
-      for (int i = 0; i < triangleHeight; i++){
-         for (int j = 0; j <= i; j++) {
+      for (int i = 0; i < triangleHeight; ++i){
+         for (int j = 0; j <= i; ++j) {
                 System.out.print(triangleChar + " ");
             }
             
          System.out.println("");
       }
+
+      scnr.close();
    }
 }
