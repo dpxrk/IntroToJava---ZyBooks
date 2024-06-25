@@ -14,7 +14,7 @@ public class SystemExceptions {
 			File file = new File("numbers.txt");
 			Scanner scanFile = new Scanner(file);
 			
-			int num1 = 100 / 0;
+			// int num1 = 100 / 0;
 			
 			//loop until eof
 			while (scanFile.hasNext()) {
