@@ -14,7 +14,7 @@ public class SystemExceptions {
 			File file = new File("numbers.txt");
 			Scanner scanFile = new Scanner(file);
 			
-//			int num1 = 100 / 0;
+			int num1 = 100 / 0;
 			
 			//loop until eof
 			while (scanFile.hasNext()) {
@@ -31,6 +31,15 @@ public class SystemExceptions {
 		catch(InputMismatchException ie) {
 			System.out.println("Input Mismatch." + ie.getMessage());
 		}
+		catch( ArithmeticException ae) {
+			System.out.println("Arithmetic exception." + ae.toString());
+		}
+//		catch(NoSuchElementException ne) {
+//			System.out.println("No such element Exception." + ne.toString());
+//			 
+//		}
+		
+		
 		finally {
 			System.out.println("Done.");
 		}
