@@ -51,5 +51,6 @@ public class DescendingOrder {
          input = scnr.nextInt();
       }
       selectionSortDescendTrace(numbers, numElements);
+      scnr.close();
    }
 }
