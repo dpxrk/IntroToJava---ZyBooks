@@ -1,7 +1,6 @@
-//@Author : Daniel Park
-
-
 import java.util.Scanner;
+
+//@Author Daniel Park
 
 public class PlayerRoster {
 	
